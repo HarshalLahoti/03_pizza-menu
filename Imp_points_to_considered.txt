@@ -1,0 +1,33 @@
+IMP point to be considered
+1. index.js is imp as web pack which is bundled uses as enty point for project
+2. React strict mode is nothing but during development it will render the componet twice to find out any bugs.
+   Also it will tell us if we are using any depricated api.
+3. Debugging in React
+    - check if npm is started or not in the terminal
+    - restart the terminal . Ctrl + C
+    - refresh the browser
+    - inspect in the browser
+    - use eslint
+4. We write componets in React using functions which should have first letter capital while naming the componet.
+The component should return only one markup or jsx.
+
+5. Nexting conponets doesn't mean we write component defination or function declartion in one other.
+Just call the name of component into another.
+
+6. Traditional way we kept HTML Css and javascript is separate places. JSX combines HTML, CSS, javascript 
+into one single block of code which is used React. The reason behind this is earlier javacript was tightly 
+coupled with HTMl. so react creted components which will combine them.
+
+7. component is have its own, data, logic and appreance
+
+8. TO include external css we just need to do import "./index.css";
+
+9. Props is essentially how we pass data from one component to another. In particular from parent component to 
+child component
+
+10. Props are immutable that is its read only. so child component cannot change the data. to change we need
+ state. WHy is this because props are nothing but object and mutate the copy , the original copy will also get
+ mutated this will create a problem.
+
+11. In react we have one -way data flow which from top to bottom using props
+
